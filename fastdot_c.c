@@ -1,13 +1,13 @@
 #include <stddef.h>
 #include <stdarg.h>
 #include <string.h>
-#include "alloc.h"
-#include "bigarray.h"
-#include "custom.h"
-#include "fail.h"
-#include "intext.h"
-#include "memory.h"
-#include "mlvalues.h"
+#include <memory.h>
+#include <caml/bigarray.h>
+#include "caml/custom.h"
+#include "caml/fail.h"
+#include "caml/intext.h"
+#include "caml/memory.h"
+#include "caml/mlvalues.h"
 #include "math.h"
 
 /* dense vector times sparse vector, no values, with offset */

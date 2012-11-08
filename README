@@ -10,7 +10,7 @@ To build a safe but slow version, just execute:
 
 which will produce an executable megam, unless something goes wrong.
 
-To build a fast but not so safe version, execuate
+To build a fast but not so safe version, execute:
 
   make opt
 

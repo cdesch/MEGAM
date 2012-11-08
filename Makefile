@@ -57,11 +57,15 @@ CUSTOM=-custom
 # local libraries are not found by the compiler.
 WITHGRAPHICS =graphics.cma -cclib -lgraphics -cclib -L/usr/X11R6/lib -cclib -lX11
 
-WITHUNIX =unix.cma -cclib -lunix
+WITHUNIX =/usr/local/lib/ocaml/unix.cma -cclib -lunix
+#WITHUNIX =/usr/local/lib/ocaml/unix.cma
 
-WITHSTR =str.cma -cclib -lstr
+#WITHSTR =/usr/local/lib/ocaml/str.cma -cclib -lstr
+WITHSTR =/usr/local/lib/ocaml/str.cma 
+#WITHSTR =/usr/local/lib/ocaml/str.cma
 
-WITHBIGARRAY =bigarray.cma -cclib -lbigarray
+WITHBIGARRAY =/usr/local/lib/ocaml/bigarray.cma -cclib -lbigarray
+#WITHBIGARRAY =/usr/local/lib/ocaml/bigarray.cma 
 
 WITHNUMS =nums.cma -cclib -lnums
 
@@ -70,7 +74,7 @@ WITHTHREADS =threads.cma -cclib -lthreads
 WITHDBM =dbm.cma -cclib -lmldbm -cclib -lndbm
 
 #WITHCLIBS =-I /usr/lib/ocaml/3.09.2/caml
-WITHCLIBS =-I /usr/lib/ocaml/caml
+WITHCLIBS =-I /usr/local/lib/ocaml/caml
 
 ################ End of user's variables #####################
 
