@@ -1,0 +1,6 @@
+cjs-MacBook-Pro:tests cj$ ./test.sh
+Scanning file...1000 train, 600 dev, 700 test, reading...done
+it 1 ./test.sh: line 10: 19909 Segmentation fault: 11  ../megam.opt -maxi 10 binary small2 > weights_b
+cjs-MacBook-Pro:tests cj$ ./test.sh
+Scanning file...1000 train, 600 dev, 700 test, reading...done
+it 1 ./test.sh: line 6: 19913 Segmentation fault: 11  ../megam -maxi 10 binary small2 > weights_b
